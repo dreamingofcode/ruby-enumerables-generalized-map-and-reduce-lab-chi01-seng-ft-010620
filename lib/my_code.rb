@@ -10,4 +10,5 @@ end
 
 
 def reduce(array,starting=nil)
+  
 end
