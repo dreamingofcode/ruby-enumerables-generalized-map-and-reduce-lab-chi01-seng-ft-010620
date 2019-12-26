@@ -10,5 +10,14 @@ end
 
 
 def reduce(array,starting=nil)
+  if starting
+    num1=starting
+    counter=0 
+  else
+    num1=array[0]
+    counter=1
+    
+    while counter<array.length
+    yield(num1,array[counter])
   
 end
