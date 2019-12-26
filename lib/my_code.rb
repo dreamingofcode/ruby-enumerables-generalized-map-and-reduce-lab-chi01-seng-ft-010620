@@ -9,5 +9,5 @@ new
 end
 
 
-def reduce()
+def reduce(array,starting=nil)
 end
