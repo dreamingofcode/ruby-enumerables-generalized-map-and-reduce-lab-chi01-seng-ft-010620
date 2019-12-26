@@ -16,6 +16,7 @@ def reduce(array,starting=nil)
   else
     num1=array[0]
     counter=1
+  end
     
     while counter<array.length
    num1= yield(num1,array[counter])
